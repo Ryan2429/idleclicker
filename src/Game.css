@@ -1,0 +1,81 @@
+body {
+    background: url(Forest.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 45.5rem;
+    overflow: hidden;
+    
+}
+
+.knight-img {
+    transform: scaleX(-1);
+    height: 20rem;
+    position: absolute;
+    bottom: 5;
+    left: -35%;
+}
+
+.monster-img {
+    max-height: 15rem;
+    position: absolute;
+    bottom: 5%;
+    right: 17%;
+} 
+
+
+/* For Firefox 
+        progress::-moz-progress-bar {
+            display:inline-block;
+            width: 20rem;
+            background: lawngreen;
+            height: 20px;
+            position: relative;
+            border-radius: 1rem;
+            box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+            
+
+        }
+  
+        /* For Chrome or Safari 
+        progress::-webkit-progress-value {
+            display:inline-block;
+            width: 20rem;
+            background: lawngreen;
+            height: 20px;
+            position: relative;
+            border-radius: 1rem;
+            box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+        }
+  
+        /* For IE10 
+        progress {
+            display:inline-block;
+            width: 20rem;
+            background: lawngreen;
+            height: 20px;
+            position: relative;
+            border-radius: 1rem;
+            box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+        }
+        
+*/
+        #player {
+            display: inline-block;
+            text-align: center;
+            position: absolute;
+            margin-left: 20%;
+            margin-top: 28%
+        }
+
+        #monster {
+            display: inline-block;
+            text-align: center;
+            margin-left: 72%;
+            margin-top: 28%
+        }
+
+
+        
+
+        
+        
